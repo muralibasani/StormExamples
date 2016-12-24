@@ -18,7 +18,7 @@ public class SplitSentenceBolt extends BaseRichBolt {
   private static final long serialVersionUID = 3092938699134129356L;
   
   private OutputCollector collector;
-  
+  // Split Sentence Bolts
   //The prepare method provides the bolt with an OutputCollector that is used for emitting tuples from this bolt. 
   @Override @SuppressWarnings("rawtypes")
   public void prepare(Map cfg, TopologyContext topologyCtx, OutputCollector outCollector) {
